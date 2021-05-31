@@ -1,8 +1,8 @@
 # Telecom-Churn-Analysis
 TEAM_MEMBERS:
-Siddhant Gupta
-Swasti Baghel
-Shubh Rastogi
+Siddhant Gupta,
+Swasti Baghel,
+Shubh Rastogi,
 Kriti Verma
 
 DOMAIN:
