@@ -17,6 +17,8 @@ Companies often focus more on acquiring new customers rather retaining the old c
 DATA_DICTIONARY:
 Acronyms    	Descriptions
 MOBILE_NUMBER	Customer phone number
+
+
 CIRCLE_ID	Telecom circle area to which the customer belongs to
 LOC	Local calls - within same telecom circle
 STD	STD calls - outside the calling circle
