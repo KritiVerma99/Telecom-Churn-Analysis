@@ -29,7 +29,7 @@ CIRCLE_ID	Telecom circle area to which the customer belongs to
 
 LOC	Local calls - within same telecom circle
 
-STD	STD calls - outside the calling circle
+STD calls - outside the calling circle
 
 IC	Incoming calls
 
