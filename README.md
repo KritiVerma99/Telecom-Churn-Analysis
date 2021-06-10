@@ -33,7 +33,7 @@ DISCUSSIONS:
 
 Meeting 01 - Jun 01,2021:
 
-Ques: How are dealing null values for variables having more that 70% of data missing?
+Ques: How are we dealing null values for variables having more than 70% of data missing?
 
 Ans:
 
