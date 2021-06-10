@@ -22,4 +22,22 @@ To build a classification model on Churn dataset of a Telecom company to predict
 OVERVIEW:
 Companies often focus more on acquiring new customers rather retaining the old clients. 
 
+Meeting 1:
+
+Ques: How are dealing null values for variables having more that 70% of data missing?
+
+Ans: 
+Understanding : In the type of data set we are using i.e Churn data set, dropping variables because of having high null data points will not be a right thing to do because there could be a logical reason behind it . Since we are seeing telecom data set for Churn, null values for different variable for a particular customer could mean that the customer has stopped using the services of the telecom operator in a particular month and hence the data points for subsequent months is missing.
+
+Action: We had 166/226 columns with null values present. We have replaced all null values for the given variables with '0' except for the data_of_last_rech column for each month, where the null values have been replaced by the mode of that particular months having 'Churn' as 1 rest 0.
+
+Ques: How to identify customer as 'Churn' or 'Non-Churn'?
+
+Ans:
+Understanding: The data given is for 4 months i.e June, July, August and September. A customer of telecom company will be considered under 'Churn' if he/she is seen to be inactive in the last two months i.e August and September. We have observed that some customers shows a trend of being active in alternate months hence we have not considered anyone under 'Churn' for only one month of inactivity and taken the criteria of two consecutive months of inactivity to be sure that the person wouldn't come back.
+
+Action: We constructed columns of 'active_month' to find customers who are active in different months based on the totals of their outgoing data, incoming data and data usage for each month. Using the columns of 'active_month', we then have calculated our Churn values as 1 or 0 based on the condition on inactiveness in last two months.
+
+
+
 
