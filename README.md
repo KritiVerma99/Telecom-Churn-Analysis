@@ -35,7 +35,8 @@ Meeting 01 - Jun 01,2021:
 
 Ques: How are dealing null values for variables having more that 70% of data missing?
 
-Ans: 
+Ans:
+
 Understanding : In the type of data set we are using i.e Churn data set, dropping variables because of having high null data points will not be a right thing to do because there could be a logical reason behind it . Since we are seeing telecom data set for Churn, null values for different variable for a particular customer could mean that the customer has stopped using the services of the telecom operator in a particular month and hence the data points for subsequent months is missing.
 
 Action: We had 166/226 columns with null values present. We have replaced all null values for the given variables with '0' except for the data_of_last_rech column for each month, where the null values have been replaced by the mode of that particular months having 'Churn' as 1 rest 0.
