@@ -14,7 +14,7 @@ Kriti Verma
 OVERVIEW:
 
 
-The telecommunications industries within the sector of information and communication technology is made up of all telecommunications/telephone companies and internet service providers and plays the crucial role in the evolution of mobile communications and the information society. 
+The telecommunication industries within the sector of information and communication technology is made up of all telecommunications/telephone companies and internet service providers and plays the crucial role in the evolution of mobile communications and the information society. 
 With the rapid development of telecommunication industry, the service providers are inclined more towards expansion of the subscriber base. To meet the need of surviving in the competitive environment, the retention of existing customers has become a huge challenge. 
 In the survey done in the Telecom industry, it is stated that the cost of acquiring a new customer is far more that retaining the existing one. Therefore, by collecting knowledge from the telecom industries can help in predicting the association of the customers as whether or not they will leave the company.
 
