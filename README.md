@@ -22,7 +22,9 @@ To build a classification model on Churn dataset of a Telecom company to predict
 OVERVIEW:
 Companies often focus more on acquiring new customers rather retaining the old clients. 
 
-Meeting 1:
+DISCUSSIONS: 
+
+Meeting 01 - Jun 01,2021:
 
 Ques: How are dealing null values for variables having more that 70% of data missing?
 
