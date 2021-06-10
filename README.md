@@ -47,7 +47,7 @@ Ans:
 
 Understanding: The data given is for 4 months i.e June, July, August and September. A customer of telecom company will be considered under 'Churn' if he/she is seen to be inactive in the last two months i.e August and September. We have observed that some customers shows a trend of being active in alternate months hence we have not considered anyone under 'Churn' for only one month of inactivity and taken the criteria of two consecutive months of inactivity to be sure that the person wouldn't come back.
 
-Action: We constructed columns of 'active_month' to find customers who are active in different months based on the totals of their outgoing data, incoming data and data usage for each month. Using the columns of 'active_month', we then have calculated our Churn values as 1 or 0 based on the condition on inactiveness in last two months.
+Action: We constructed columns of 'active_month' to find customers who are active in different months based on the totals of their outgoing calls, incoming calls, and data usage for each month. Using the columns of 'active_month', we then have calculated our Churn values as 1 or 0 based on the condition on inactiveness in last two months.
 
 
 
